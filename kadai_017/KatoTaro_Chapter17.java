@@ -1,0 +1,15 @@
+package kadai_017;
+
+public class KatoTaro_Chapter17 extends Kato_Chapter17 {
+	
+	//名前セットメソッド
+	public void setGivenName() {
+		super.givenName = "太郎";
+	}
+	
+	//個別紹介メソッド
+	public void eachIntroduce() {
+		System.out.println("私はJavaが得意です");
+	}
+
+}
